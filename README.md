@@ -13,10 +13,10 @@ These instructions are for setting up `watUsay` on Windows.
 *   **Python 3.8 or newer.**
 *   **FFmpeg:** This is required for audio processing. You can install it from the official website or using a package manager.
 
+    ```bash
     # on Windows using Winget
     winget install "FFmpeg (Shared)"
 
-    ```bash
     # on Ubuntu or Debian
     sudo apt update && sudo apt install ffmpeg
 
@@ -163,6 +163,6 @@ The default value of 0.005 is a balanced starting point, but feel free to experi
 
 ## Original Whisper Project
 
-*   [[Blog]](https://openai.com/blog/whisper)
+*   https://github.com/openai/whisper
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification.
