@@ -62,15 +62,19 @@ watusay_env\Scripts\deactivate.bat
 
 ### Example Usage
 
-- **Activate virtual environment then transcribe with a `small` model, processing every 3 seconds:**
+- **Activate virtual environment then navigate to the repo folder**
   ```shell
   watusay_env\Scripts\activate.bat
+  cd watUsay
+  ```
+
+- **Transcribe with a `small` model, processing every 3 seconds:**
+  ```shell
   python watUsay.py --model small --buffer_seconds 3
   ```
 
-- **Activate virtual environment then translate from Chinese to English using the default `base` model:**
+- **Translate from Chinese to English using the default `base` model:**
   ```shell
-  watusay_env\Scripts\activate.bat
   python watUsay.py --task translate --language zh
   ```
 
