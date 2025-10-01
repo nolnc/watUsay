@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Noel
+# Licensed under the MIT License. See LICENSE for details.
+
 import argparse
 import torch
 import colorama
