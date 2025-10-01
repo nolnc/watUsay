@@ -10,18 +10,13 @@ These instructions are for setting up `watUsay` on Windows.
 
 ### Prerequisites
 
+*   **Git**
 *   **Python 3.8 or newer.**
 *   **FFmpeg:** This is required for audio processing. You can install it from the official website or using a package manager.
 
     ```bash
     # on Windows using Winget
     winget install "FFmpeg (Shared)"
-
-    # on Ubuntu or Debian
-    sudo apt update && sudo apt install ffmpeg
-
-    # on MacOS using Homebrew
-    brew install ffmpeg
     ```
 
 ### Installation Steps
@@ -52,7 +47,7 @@ These instructions are for setting up `watUsay` on Windows.
 To start the live transcription/translation, run the `watUsay.py` script from within the activated virtual environment. You will be prompted to select an audio input device.
 
 ```bash
-python watUsay.py [options]
+python watUsay\watUsay.py [options]
 ```
 
 When you are finished, you can stop the script with `Ctrl+C` and deactivate the virtual environment:
@@ -62,20 +57,19 @@ watusay_env\Scripts\deactivate.bat
 
 ### Example Usage
 
-- **Activate virtual environment then navigate to the repo folder**
+- **Activate virtual environment**
   ```shell
   watusay_env\Scripts\activate.bat
-  cd watUsay
   ```
 
 - **Transcribe with a `small` model, processing every 3 seconds:**
   ```shell
-  python watUsay.py --model small --buffer_seconds 3
+  python watUsay\watUsay.py --model small --buffer_seconds 3
   ```
 
 - **Translate from Chinese to English using the default `base` model:**
   ```shell
-  python watUsay.py --task translate --language zh
+  python watUsay\watUsay.py --task translate --language zh
   ```
 
 ### Command-Line Options
