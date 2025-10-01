@@ -61,6 +61,11 @@ watusay_env\Scripts\deactivate.bat
   watusay_env\Scripts\activate.bat
   ```
 
+- **Run will defaults:**
+  ```shell
+  python watUsay\watUsay.py
+  ```
+
 - **Transcribe with a `small` model, processing every 3 seconds:**
   ```shell
   python watUsay\watUsay.py --model small --buffer_seconds 3
