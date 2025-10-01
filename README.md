@@ -40,7 +40,6 @@ These instructions are for setting up `watUsay` on Windows.
     ```bash
     pip install -r watUsay/requirements.txt
     ```
-    *Note: If you run into issues with `tiktoken`, you may need to install Rust. Follow the [Getting started page](https://www.rust-lang.org/learn/get-started) to install the Rust development environment.*
 
 ## Usage
 
@@ -136,7 +135,7 @@ This converts the spoken audio into text in the same language.
 
 *   **`transcribe` (Default):** This converts the spoken audio into text in the same language.
 Example: If you speak Japanese, the output will be Japanese text.
-*   **`translate`:** Translates speech from any supported language directly into **English text**. Note: This task only works with the multilingual models (e.g., base, small, medium, large), not the English-only (.en) models.
+*   **`translate`:** Translates speech from any supported language directly into **English text**. Note: This task only works with the multilingual models (e.g., base, small, medium, large), not the English-only (.en) models. Example: If you speak Chinese, the output will be English text.
 
 ### --language
 This parameter specifies the language of the audio.
