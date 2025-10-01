@@ -60,6 +60,18 @@ When you are finished, you can stop the script with `Ctrl+C` and deactivate the 
 watusay_env\Scripts\deactivate.bat
 ```
 
+### Example Usage
+
+- **Transcribe with a `small` model, processing every 3 seconds:**
+  ```shell
+  python watUsay.py --model small --buffer_seconds 3
+  ```
+
+- **Translate from Chinese to English using the default `base` model:**
+  ```shell
+  python watUsay.py --task translate --language zh
+  ```
+
 ### Command-Line Options
 
 *   `--model`: Model to use (e.g., `tiny`, `base`, `small`). Default is `base`.
