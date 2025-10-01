@@ -61,7 +61,7 @@ watusay_env\Scripts\deactivate.bat
   watusay_env\Scripts\activate.bat
   ```
 
-- **Run will defaults:**
+- **Run with defaults:**
   ```shell
   python watUsay\watUsay.py
   ```
